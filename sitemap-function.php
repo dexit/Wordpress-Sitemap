@@ -1,6 +1,7 @@
 <?php
 add_action( 'publish_post', 'dexit_gen_sitemap' );
 add_action( 'publish_page', 'dexit_gen_sitemap' );
+add_action( 'save_post',    'dexit_gen_sitemap' );
 
 function dexit_gen_sitemap() {
 
