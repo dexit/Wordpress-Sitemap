@@ -8,7 +8,7 @@ function dexit_gen_sitemap() {
     $postsForSitemap = get_posts(array(
         'numberposts' => -1,
         'orderby' => 'modified',
-        'post_type'  => array( 'post', 'page' ),
+        'post_type'  => array( 'post', 'page', 'project' ),
         'order'    => 'DESC'
     ));
 
